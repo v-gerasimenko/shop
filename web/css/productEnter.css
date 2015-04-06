@@ -1,0 +1,51 @@
+body {
+    background: url(http://subtlepatterns.com/patterns/subtlenet2.png);
+    font: 1em 'PT Sans', Tahoma, Arial;
+    text-transform: uppercase;
+}
+.frm {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+form{
+    opacity: .9;
+    background: #bbb;
+    color: #fff;
+    padding: 10px;
+}
+form:hover{
+    -moz-transition: background .2s ease-in-out;
+    -webkit-transition: background .2s ease-in-out;
+    -o-transition: background .2s ease-in-out;
+    transition: background .2s ease-in-out;
+    opacity: 1;
+}
+
+.btn{
+    width: 55px;
+    height: 40px;
+    position: relative;
+    top:10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.button{
+    -moz-transition: background .2s ease-in-out;
+    -webkit-transition: background .2s ease-in-out;
+    -o-transition: background .2s ease-in-out;
+    transition: background .2s ease-in-out;
+    border:solid 0.5px #191919;
+    background: #fff;
+}
+.button:hover{
+    border:solid 0.7px #191919;
+    background: #CCE4DE;
+}

@@ -1,0 +1,27 @@
+body {
+    background: url(http://subtlepatterns.com/patterns/subtlenet2.png);
+    font: 1em 'PT Sans', Tahoma, Arial;
+    text-transform: uppercase;
+}
+.main{
+    -moz-transition: background .2s ease-in-out;
+    -webkit-transition: background .2s ease-in-out;
+    -o-transition: background .2s ease-in-out;
+    transition: background .2s ease-in-out;
+    opacity: .9;
+    width: 350px;
+    height: 200px;
+    position: relative;
+    top:0;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #bbb;
+    color: #fff;
+    padding: 10px;
+    border:solid 1px black;
+}
+.main:hover{
+    opacity: 1;
+}

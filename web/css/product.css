@@ -1,0 +1,13 @@
+body {
+    background: url(http://subtlepatterns.com/patterns/subtlenet2.png);
+    font: 1em 'PT Sans', Tahoma, Arial;
+}
+
+button{
+    border: 1px solid black;
+    background: #fff;
+}
+button:hover{
+    border: 1px solid black;
+    background: #CCE4DE;
+}

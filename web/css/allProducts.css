@@ -1,0 +1,43 @@
+body {
+    background: url(http://subtlepatterns.com/patterns/subtlenet2.png);
+    font: 1em 'PT Sans', Tahoma, Arial;
+    text-transform: uppercase;
+}
+.tbl {
+    position: absolute;
+    width:1000px;
+}
+
+table {
+    opacity: .9;
+    background: #bbb;
+    color: #fff;
+    border-collapse: collapse;
+    border: 0.8px solid black;
+    border-spacing: 8px;
+}
+.btn{
+    width: 55px;
+    height: 40px;
+    position: relative;
+    top:10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.button{
+    -moz-transition: background .2s ease-in-out;
+    -webkit-transition: background .2s ease-in-out;
+    -o-transition: background .2s ease-in-out;
+    transition: background .2s ease-in-out;
+    border:solid 0.5px #191919;
+    background: #fff;
+}
+.button:hover{
+    border:solid 0.7px #191919;
+    background: #CCE4DE;
+}
+td {
+    padding: 6px;
+}

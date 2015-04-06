@@ -1,0 +1,48 @@
+body {
+    background: #282828 url(http://lamcdn.net/www.furfur.me/gui/bg-d50bfa18871122e6496c4f716fd3183e.jpg) top center;
+    font: 1em 'PT Sans', Tahoma, Arial;
+    text-transform: uppercase;
+}
+
+.main{
+    -moz-transition: background .2s ease-in-out;
+    -webkit-transition: background .2s ease-in-out;
+    -o-transition: background .2s ease-in-out;
+    transition: background .2s ease-in-out;
+    opacity: .9;
+    width: 350px;
+    height: 200px;
+    position: relative;
+    top:0;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #bbb;
+    color: #fff;
+    padding: 10px;
+    border:solid 1px black;
+}
+
+.btn{
+    width: 55px;
+    height: 70px;
+    position: relative;
+    top:10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.button{
+    -moz-transition: background .2s ease-in-out;
+    -webkit-transition: background .2s ease-in-out;
+    -o-transition: background .2s ease-in-out;
+    transition: background .2s ease-in-out;
+    border:solid 0.5px #191919;
+    background: #fff;
+}
+.button:hover{
+    border:solid 0.7px #191919;
+    background: #E0E0D1;
+}

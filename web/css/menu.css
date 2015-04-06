@@ -1,0 +1,66 @@
+body {
+background: url(http://subtlepatterns.com/patterns/subtlenet2.png);
+font: 1em 'PT Sans', Tahoma, Arial;
+text-transform: uppercase;
+}
+
+.nav {
+list-style: none;
+margin: 30px;
+opacity: .5;
+padding: 0;
+width: 50px;
+
+-moz-transition: opacity .3s ease-in-out;
+-webkit-transition: opacity .3s ease-in-out;
+-o-transition: opacity .3s ease-in-out;
+transition: opacity .3s ease-in-out;
+}
+
+.nav:hover {
+opacity: 1;
+}
+
+.nav li a {
+height: 45px;
+width: 200px;
+background: #bbb;
+color: #fff;
+cursor: pointer;
+display: block;
+line-height: 40px;
+margin: 1px;
+padding-left: 15px;
+text-decoration: none;
+
+-moz-transition: background .2s ease-in-out;
+-webkit-transition: background .2s ease-in-out;
+-o-transition: background .2s ease-in-out;
+transition: background .2s ease-in-out;
+}
+
+.nav li a:hover {
+background:#CCE4DE;
+}
+.btn{
+width: 55px;
+height: 40px;
+position: relative;
+top:10px;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+}
+.button{
+-moz-transition: background .2s ease-in-out;
+-webkit-transition: background .2s ease-in-out;
+-o-transition: background .2s ease-in-out;
+transition: background .2s ease-in-out;
+border:solid 0.5px #191919;
+background: #fff;
+}
+.button:hover{
+border:solid 0.7px #191919;
+background: #CCE4DE;
+}
