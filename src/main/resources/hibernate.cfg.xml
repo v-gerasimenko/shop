@@ -13,15 +13,15 @@
         </property>
 
         <property name="hibernate.connection.url">
-
+            ---
         </property>
 
         <property name="hibernate.connection.username">
-
+            ---
         </property>
 
         <property name="hibernate.connection.password">
-
+            ---
         </property>
 
         <property name="hibernate.show_sql">true</property>
