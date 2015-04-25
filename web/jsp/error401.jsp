@@ -2,16 +2,12 @@
 <!DOCTYPE html>
 <title>Incorrect</title>
 <meta charset="utf-8">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/css/wrong.css">
-<head>
-
-</head>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/general.css">
 <body>
-<div class="main"><h2>Login or password are incorrect. Please, try again!</h2>
+<div class="main"><h2>Such product already exists. Try again!</h2>
 
-    <form action="${pageContext.request.contextPath}/jsp/login.jsp">
+    <form action="${pageContext.request.contextPath}/add">
         <div class="btn"><input type="submit" value="Try again" class="button"></div>
-
     </form>
 </div>
 </body>

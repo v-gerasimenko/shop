@@ -9,7 +9,7 @@
 <body>
 <div class="main"><h2>Such user exists. Please, try again!</h2>
 
-    <form action="${pageContext.request.contextPath}/jsp/register.jsp">
+    <form action="${pageContext.request.contextPath}/register">
         <div class="btn"><input type="submit" value="Try again" class="button"></div>
 
     </form>

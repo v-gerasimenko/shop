@@ -7,11 +7,8 @@
 <ul class="nav">
 
     <li class="main-menu">
-        <a href="${pageContext.request.contextPath}/jsp/productEnter.jsp">Enter new product</a>
+        <a href="${pageContext.request.contextPath}/add">Enter new product</a>
     </li>
-
-    <li class="main-menu">
-        <a href="${pageContext.request.contextPath}/jsp/supplierEnter.jsp">Enter new supplier</a></li>
 
 </ul>
 

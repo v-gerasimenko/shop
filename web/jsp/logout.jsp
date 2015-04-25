@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="${pageContext.request.contextPath}/css/logout.css">
 <body>
 <div class="main">
-    <h3> Goodbye, <%= session.getAttribute("name") %>! </h3>
+    <h3> Goodbye, ${name}! </h3>
 </div>
 </body>
 </html>

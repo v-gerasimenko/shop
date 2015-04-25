@@ -1,4 +1,4 @@
-package entity;
+package shop.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
