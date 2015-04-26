@@ -13,9 +13,9 @@
         <th>Barcode</th>
         <th>Type</th>
         <th>Price</th>
-        <c:forEach var="product" items="${productList}">
+        <c:forEach var="product" items="${products}">
             <tr>
-                <td><a href="./product.do?id=${product.id}">
+                <td><a href="${pageContext.request.contextPath}/product/id=${product.id}">
                         ${product.name}</a></td>
                 <td>${product.quantity}</td>
                 <td>${product.barcode}</td>

@@ -7,7 +7,7 @@
 <ul class="nav">
 
     <li class="main-menu">
-        <a href="${pageContext.request.contextPath}/productAll">See all and buy</a></li>
+        <a href="${pageContext.request.contextPath}/product/all">See all and buy</a></li>
 
 </ul>
 

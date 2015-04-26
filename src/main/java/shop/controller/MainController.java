@@ -42,41 +42,20 @@ public class MainController {
         }
     }
 
-    @RequestMapping(value = {"/login"}, method = RequestMethod.GET)
-    public String login(Model model) {
-        User user = new User();
-        model.addAttribute("user", user);
-        return "login";
+    @RequestMapping(value = {"/menu-user"}, method = RequestMethod.GET)
+    public String menuUser() {
+        return "menuUser";
     }
 
-    @RequestMapping(value = {"/login"}, method = RequestMethod.POST)
-    public String createSession(User user, HttpServletRequest request) {
-
-        if (userService.entityExists(userService.getByLoginAndPassword(user.getLogin(),
-                user.getPassword()))) {
-            User newUser = userService.getByLoginAndPassword(user.getLogin(), user.getPassword());
-            if (newUser.getRole().equals("admin")) {
-                HttpSession session = request.getSession(true);
-                session.setAttribute("name", newUser.getLogin());
-                return "menuAdmin";
-
-            } else {
-                HttpSession session = request.getSession(true);
-                session.setAttribute("name", newUser.getLogin());
-                return "menuUser";
-            }
-        } else {
-            return "wrongValidation";
-        }
+    @RequestMapping(value = {"/menu-admin"}, method = RequestMethod.GET)
+    public String menuAdmin() {
+        return "menuAdmin";
     }
 
-    @RequestMapping(value = {"/logout"}, method = RequestMethod.GET)
-    public String logout(HttpServletRequest request) {
-       HttpSession session = request.getSession();
-        session.invalidate();
-        return "logout";
+    @RequestMapping(value = {"/menu"}, method = RequestMethod.GET)
+    public String menu() {
+        return "menu";
     }
-
 
 }
 
