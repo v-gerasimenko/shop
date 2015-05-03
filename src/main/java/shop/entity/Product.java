@@ -4,14 +4,12 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
 import java.io.Serializable;
 
 @Entity
 @Table(name = "products")
 public class Product implements Serializable {
     private static final long serialVersionUID = 2L;
-
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -28,7 +26,6 @@ public class Product implements Serializable {
     @NotEmpty
     @Column(name = "product_type")
     private String type;
-//    todo:tobigdecimal
     @NotNull
     @Column(name = "price")
     private Long price;

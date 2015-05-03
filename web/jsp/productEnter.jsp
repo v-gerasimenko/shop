@@ -10,7 +10,7 @@
     <title>Add product</title>
 </head>
 <body>
-<c:url var="saveUrl" value= "/add" />
+<c:url var="saveUrl" value= "/product/add" />
 <form:form modelAttribute="product" method="POST" action="${saveUrl}">
     <table>
         <tr>

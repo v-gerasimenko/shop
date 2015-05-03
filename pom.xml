@@ -14,7 +14,7 @@
         <mysql.version>5.1.6</mysql.version>
         <hibernate.version>4.1.7.Final</hibernate.version>
         <springframework-version>4.0.3.RELEASE</springframework-version>
-        <validation.version>1.0.0.GA</validation.version>
+
         <spring.security.version>3.2.3.RELEASE</spring.security.version>
     </properties>
 

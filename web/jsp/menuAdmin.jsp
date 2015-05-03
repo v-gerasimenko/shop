@@ -13,20 +13,21 @@
 <ul class="nav">
 
     <c:if test="${pageContext.request.userPrincipal.name != null}">
-        <h2>Welcome : ${pageContext.request.userPrincipal.name}
+        Welcome, ${pageContext.request.userPrincipal.name}
             | <a href="<c:url value="/logout"/>" > Logout</a></h2>
     </c:if>
 
     <li class="main-menu">
-        <a href="${pageContext.request.contextPath}/add">Enter new product</a>
+        <a href="${pageContext.request.contextPath}/product/add">Enter new product</a>
     </li>
 
 </ul>
+<form name="logout" method="get" action="${pageContext.request.contextPath}/logout">
+<div class="btn"><input type="submit" value="Log Out" class="button"/></div>
+</form>
 </body>
 
 </html>
 
-<%--<form name="logout" method="get" action="${pageContext.request.contextPath}/logout">--%>
-    <%--<div class="btn"><input type="submit" value="Log Out" class="button"/></div>--%>
-<%--</form>--%>
+
 

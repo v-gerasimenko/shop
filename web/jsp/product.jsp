@@ -13,14 +13,14 @@
 <br><b>Product price: $</b>${product.price}
 <br>
 <br>
-<a href="./productAdd.do?id=${product.id}">
+<a href="${pageContext.request.contextPath}/product/add-product/id=${product.id}">
     <button class="btn">Add this product to bucket</button>
 </a>
 
-<a href="${pageContext.request.contextPath}/productAll">
+<a href="${pageContext.request.contextPath}/product/all">
     <button class="btn2">To all products</button>
 </a>
-<a href="${pageContext.request.contextPath}/jsp/menuUser.jsp">
+<a href="${pageContext.request.contextPath}/menu-user">
     <button class="btn2">To main menu</button>
 </a>
 </br>
@@ -30,7 +30,7 @@
 
 <c:forEach var="productInBucket" items="${productsInBucket}">
     <li>
-        <a href="./product.do?id=${productInBucket.key.id}">${productInBucket.key.name}</a>:
+        <a href="product/id=${productInBucket.key.id}">${productInBucket.key.name}</a>:
         = ${productInBucket.value}
     </li>
 </c:forEach>
